@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <packaging>pom</packaging>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Exercicio4</groupId>
+  <artifactId>Exercicio4</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+   <!-- Inherit defaults from Spring Boot -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.4.0.BUILD-SNAPSHOT</version>
+    </parent>
+  
+    <dependencies>
+    	<dependency>
+    		<groupId>Exercicio4</groupId>
+    		<artifactId>Comum</artifactId>
+    		<version>1.0</version>
+    	</dependency>
+    </dependencies>
+    
+    <build>
+    <plugins>
+        <plugin>
+            <groupId>com.github.kongchen</groupId>
+            <artifactId>swagger-maven-plugin</artifactId>
+            <version>3.1.3</version>
+        </plugin>
+    </plugins>
+</build>
+    
+    <modules>
+    	<module>AmigoMicroService</module>
+    	<module>ClienteMicroService</module>
+    	<module>EmprestimoMicroService</module>
+    	<module>PublicacaoMicroService</module>
+    	<module>comum</module>
+    </modules>
+</project>
