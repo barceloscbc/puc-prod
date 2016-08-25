@@ -1,4 +1,4 @@
-package com.acme.db;
+package br.com.acme.db;
 
 public class Cliente {
 
