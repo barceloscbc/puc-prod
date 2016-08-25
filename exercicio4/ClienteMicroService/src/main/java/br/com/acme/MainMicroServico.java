@@ -17,9 +17,9 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableAutoConfiguration
 @EnableSwagger2
 @ComponentScan({ "br.com.acme.model.repository", "br.com.acme.controller" })
-public class PublicacaoMicroServico {
+public class MainMicroServico {
 	public static void main(String[] args) throws Exception {
-		SpringApplication.run(PublicacaoMicroServico.class, args);
+		SpringApplication.run(MainMicroServico.class, args);
 	}
 
 	@Bean
