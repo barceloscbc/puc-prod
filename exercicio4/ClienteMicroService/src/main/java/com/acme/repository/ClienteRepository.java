@@ -1,10 +1,8 @@
 package com.acme.repository;
 
-import java.util.List;
-
 import com.acme.db.Cliente;
+import comum.RepositoryAbstract;
 
-public static class ClienteRepository {
+public class ClienteRepository extends RepositoryAbstract<Cliente, Integer> {
 
-	private List<Cliente> listaCliente;
 }

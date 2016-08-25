@@ -1,6 +1,8 @@
 package com.acme.db;
 
-public class Cliente {
+import comum.Entity;
+
+public class Cliente implements Entity<Integer> {
 
 	private Integer codigo;
 	private String nome;
@@ -23,5 +25,14 @@ public class Cliente {
 	}
 	public void setCpf(String cpf) {
 		this.cpf = cpf;
+	}
+	
+	@Override
+	public Integer getId() {
+		return codigo;
+	}
+	@Override
+	public void setId(Integer id) {
+		this.codigo = id;
 	}
 }
