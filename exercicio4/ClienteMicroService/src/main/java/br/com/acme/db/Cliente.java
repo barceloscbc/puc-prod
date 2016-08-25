@@ -1,6 +1,6 @@
 package br.com.acme.db;
 
-import comum.Entity;
+import br.comum.Entity;
 
 public class Cliente implements Entity<Integer> {
 
