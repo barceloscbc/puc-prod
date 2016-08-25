@@ -13,6 +13,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <dependency>
+        	<groupId>Exercicio4</groupId>
+        	<artifactId>Comum</artifactId>
+        </dependency>
     </dependencies>
 
     <!-- Package as an executable jar -->
