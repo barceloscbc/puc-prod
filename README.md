@@ -30,6 +30,11 @@ Cada micro-serviço deve ter um tema específico, ser organizado em um
 projeto independente no Eclipse e poder ser disparado ou parado de forma
 independente. É esperado que cada micro-serviço forneça uma API REST
 para consumo.
+## Pivotal WebService
+- [Publicação](http://publicacao.cfapps.io/swagger-ui.html)
+- [Amigo](http://amigo.cfapps.io/swagger-ui.html)
+- [Cliente](http://cliente.cfapps.io/swagger-ui.html)
+- [Emprestimo](http://emprestimo.cfapps.io/swagger-ui.html)
 
 ## Docker
 - docker pull barceloscbc/puc-prod
