@@ -36,13 +36,13 @@ para consumo.
 - docker run -d --name puc-prod -p  9090:8080 -p 9091:8081 -p 9092:8082 -p 9093:8083 of05/aswdb
 
 ## Acessado Amigo Micro Service
-  - http://<ip docker>:9090/
+  - http://< ip docker >:9090/
   
 ## Acessado Cliente Micro Service
-  - http://<ip docker>:9091/  
+  - http://< ip docker >:9091/  
   
 ## Acessado Empréstimo Micro Service
-  - http://<ip docker>:9092/   
+  - http://< ip docker >:9092/   
   
 ## Acessado Publicação Micro Service
-  - http://<ip docker>:9093/    
+  - http://< ip docker >:9093/    
