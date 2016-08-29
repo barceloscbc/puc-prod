@@ -1,0 +1,6 @@
+---
+applications:
+- name: emprestimo
+  memory: 256M
+  instances: 1
+  random-route: false

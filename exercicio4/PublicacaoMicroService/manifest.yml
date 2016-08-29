@@ -1,0 +1,6 @@
+---
+applications:
+- name: publicacao
+  memory: 256M
+  instances: 1
+  random-route: false
