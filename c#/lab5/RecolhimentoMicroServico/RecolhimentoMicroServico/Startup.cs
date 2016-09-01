@@ -5,10 +5,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Http;
-using Limpeza.App_Start;
+using RecolhimentoMicroServico.App_Start;
 
-[assembly: OwinStartup(typeof(Limpeza.Startup))]
-namespace Limpeza
+[assembly: OwinStartup(typeof(WebApiSwagger.Startup))]
+namespace WebApiSwagger
 {
     public class Startup
     {

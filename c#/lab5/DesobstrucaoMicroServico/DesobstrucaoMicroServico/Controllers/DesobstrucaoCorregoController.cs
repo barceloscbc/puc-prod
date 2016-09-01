@@ -4,15 +4,13 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using System.Web.Http.Description;
 
-namespace Limpeza.Controllers
+namespace Desobstrucao.Controllers
 {
-    [RoutePrefix("api/PodaArvore")]
-    public class PodaArvoreController : ApiController
+    [RoutePrefix("api/DesobstrucaoCorrego")]
+    public class DesobstrucaoCorregoController : ApiController
     {
-
-        [Route("{logradouro:alpha}", Name = "SolicitarPodaAvoreByLogradouro")]
+        [Route("{logradouro:alpha}", Name = "SolicitacaoDesobstrucaoCorregoByLogradouro")]
         public IHttpActionResult Post(string logradouro)
         {
             if (!ModelState.IsValid)
